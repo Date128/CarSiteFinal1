@@ -11,6 +11,6 @@ namespace Domain.Interfaces
     /// Наследует базовые методы работы с сущностями из IRepositoryBase<Comment>.
     public interface ICommentRepository : IRepositoryBase<Comment>
     {
-       
+
     }
 }

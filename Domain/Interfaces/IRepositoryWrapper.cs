@@ -1,5 +1,5 @@
-﻿using System.Threading.Tasks;
-using Domain.Interfaces;
+﻿using Domain.Interfaces;
+using System.Threading.Tasks;
 
 namespace Domain.Wrapper
 {

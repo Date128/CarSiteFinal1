@@ -11,7 +11,7 @@ namespace Domain.Interfaces
     /// Наследует базовые методы работы с сущностями из IRepositoryBase<CarAttribute>.
     public interface ICarAttributeRepository : IRepositoryBase<CarAttribute>
     {
-      
+
 
     }
 }

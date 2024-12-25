@@ -1,8 +1,8 @@
-﻿using System.Threading.Tasks;
+﻿using DataAccess.Repositories;
 using Domain.Interfaces;
 using Domain.Models;
-using DataAccess.Repositories;
 using Domain.Wrapper;
+using System.Threading.Tasks;
 
 namespace DataAccess.Wrapper
 {

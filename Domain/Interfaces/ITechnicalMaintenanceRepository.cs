@@ -11,6 +11,6 @@ namespace Domain.Interfaces
     /// Наследует базовые методы работы с сущностями из IRepositoryBase<TechnicalMaintenance>.
     public interface ITechnicalMaintenanceRepository : IRepositoryBase<TechnicalMaintenance>
     {
-        
+
     }
 }
