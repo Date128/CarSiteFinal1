@@ -1,0 +1,14 @@
+.vs/
+.vscode/
+BusinessLogic/bin/
+BusinessLogic/obj/
+BusinessLogic.Tests/bin/
+BusinessLogic.Tests/obj/
+DataAccess/bin/
+DataAccess/obj/
+Domain/bin/
+Domain/obj/
+CARSITE/bin/
+CARSITE/obj/
+BlazorClient/bin/
+BlazorClient/obj/

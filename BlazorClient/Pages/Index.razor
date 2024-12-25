@@ -1,0 +1,53 @@
+﻿@page "/"
+
+<nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Carsite</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cars">Автомобили</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/services">Услуги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="hero" class="d-flex align-items-center" style="height: 100vh;">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Левая часть: текст и кнопка -->
+            <div class="col-md-6 text-start">
+                <h1 class="display-4 fw-bold" style="color: #003366;">ДОБРО ПОЖАЛОВАТЬ НА CARSITE!</h1>
+                <p class="lead mt-4">
+                    На этом сайте вы можете увидеть как новые, так и старые модели машин, посмотреть их характеристики, обсудить это с другими пользователями и оставить отзыв о автомобиле.
+                </p>
+                <button type="button" class="btn btn-dark btn-lg mt-4">Начать!</button>
+            </div>
+
+            <!-- Правая часть: изображение -->
+            <div class="col-md-6">
+                <img src="https://avatars.mds.yandex.net/get-ydo/1384592/2a000001752b88ff46863623459c9b6d5f24/diploma" alt="Автомобиль" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+@code {
+    public class User
+    {
+        // Класс пользователя (может быть расширен при необходимости)
+    }
+}
